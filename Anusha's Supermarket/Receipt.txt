@@ -1,0 +1,19 @@
+*******************************************
+           Anusha's SuperMarket            
+
+
+
+Item               Price        Amount
+Compass Pendant     2500    2500
+Maverick Pant(red)  1800    1800
+                    0       0
+                    0       0
+                    0       0
+                    0       0
+                    0       0
+                    0       0
+                    0       0
+Total : 8600
+*******************************************
+Contacts: Farazproject1212@gmail.com
+Find us on : Github.com/Faraz-ghani
