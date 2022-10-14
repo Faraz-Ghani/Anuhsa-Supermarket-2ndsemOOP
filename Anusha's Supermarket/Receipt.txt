@@ -4,8 +4,8 @@
 
 
 Item               Price        Amount
-Compass Pendant     2500    2500
-Maverick Pant(red)  1800    1800
+Pepsi               60      60
+Maverick Pant(blck) 1600    1600
                     0       0
                     0       0
                     0       0
@@ -13,7 +13,7 @@ Maverick Pant(red)  1800    1800
                     0       0
                     0       0
                     0       0
-Total : 8600
+Total : 3620
 *******************************************
 Contacts: Farazproject1212@gmail.com
 Find us on : Github.com/Faraz-ghani

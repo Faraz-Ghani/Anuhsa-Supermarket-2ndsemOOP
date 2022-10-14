@@ -52,8 +52,8 @@ JSONObject read = (JSONObject) obj;
     public void run() {
 String[] str={"","","","","","","","","","","","","","","","","","","",""};
 String host = "smtp.gmail.com";
-        final String user = <Your Mail>;
-        final String password = <Your Pass>;
+        final String user = "farazproject1212@gmail.com";
+        final String password = "ihpkiuxqubdcutlo";
         
         String to = email;// change accordingly
 

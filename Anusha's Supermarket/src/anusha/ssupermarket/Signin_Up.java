@@ -58,6 +58,9 @@ public class Signin_Up extends javax.swing.JFrame {
         Userlogo = new javax.swing.JLabel();
         Username = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
         RegistrationForm = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         register2 = new javax.swing.JPanel();
@@ -201,15 +204,48 @@ public class Signin_Up extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(62, 120, 207));
 
+        jLabel2.setFont(new java.awt.Font("Google Sans Display", 3, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(23, 35, 51));
+        jLabel2.setText("Welcome To ");
+
+        jLabel4.setFont(new java.awt.Font("Google Sans Display", 3, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(23, 35, 51));
+        jLabel4.setText("Anusha's Supermarket !");
+
+        jLabel5.setFont(new java.awt.Font("Google Sans Display", 3, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(23, 35, 51));
+        jLabel5.setText("Please Register or Login");
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 280, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addGap(69, 69, 69)
+                                .addComponent(jLabel2))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLabel4)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jLabel5)))
+                .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 340, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGap(30, 30, 30)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addGap(66, 66, 66)
+                .addComponent(jLabel5)
+                .addContainerGap(145, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 280, 340));
@@ -742,7 +778,10 @@ public static int count;
     private javax.swing.JTextField emailf;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JTextField lnamef;

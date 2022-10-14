@@ -1012,7 +1012,9 @@ cartt1.start();
         );
         allitems3Layout.setVerticalGroup(
             allitems3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane6)
+            .addGroup(allitems3Layout.createSequentialGroup()
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jScrollPane7.setViewportView(allitems3);
@@ -1027,8 +1029,8 @@ cartt1.start();
             shoppingLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(shoppingLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane7)
-                .addContainerGap())
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         getContentPane().add(shopping, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 750, 430));
