@@ -25,7 +25,6 @@ import org.json.simple.parser.JSONParser;
 public class SendMail extends Thread {
     public String userd,email,Total;
  public cartThread cart1;
-    private String confirmCode;
     public SendMail(String userdet,cartThread t1,String total){
         this.userd = userdet;
         Total=total;
@@ -37,26 +36,17 @@ JSONObject read = (JSONObject) obj;
       email=  read.get("Email").toString();
       
 } catch (IOException | org.json.simple.parser.ParseException e1) {
-// TODO Auto-generated catch block
- 
-}        
-           
-        
-        
-    }
+}   }
     
     /**
      * 
      */
     @Override 
     public void run() {
-String[] str={"","","","","","","","","","","","","","","","","","","",""};
 String host = "smtp.gmail.com";
         final String user = "farazproject1212@gmail.com";
         final String password = "ihpkiuxqubdcutlo";
-        
-        String to = email;// change accordingly
-
+        String to = email;
         // Get the session object
         Properties props = System.getProperties();
         props.put("mail.smtp.host", host);

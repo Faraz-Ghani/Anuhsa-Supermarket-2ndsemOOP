@@ -683,14 +683,11 @@ if(PASS.equals(PASSINPUT)){
         dispose();
 
 }
-else{//CONITEUNAUIAHSGYDGAISDAGDYGSAUD
-    
+else{
    JOptionPane.showMessageDialog(null, "Invalid Username or Password!!",
       "ERROR!", JOptionPane.ERROR_MESSAGE); 
-}
-        
+}   
 } catch (IOException | ParseException e1) {
-// TODO Auto-generated catch block
  JOptionPane.showMessageDialog(null, "Invalid Username or Password!!",
       "ERROR!", JOptionPane.ERROR_MESSAGE); 
 }        

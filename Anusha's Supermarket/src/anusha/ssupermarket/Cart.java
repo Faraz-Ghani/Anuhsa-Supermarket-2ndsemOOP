@@ -307,7 +307,7 @@ for(int i=0;i<9;i++){
 
         jLabel7.setText(Integer.toString(total));
         jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        cart.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 240, 120, 40));
+        cart.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 120, 40));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel8.setText("Rs");
